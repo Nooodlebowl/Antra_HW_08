@@ -1,0 +1,140 @@
+/*  question 1 */
+
+#header{
+    background-color: aqua;
+    padding: 20px;
+}
+#header table{
+    width: 100%;
+}
+#innerheader li{
+    font-size: 24px;
+    padding: 16px 30px;
+    float: left;
+}
+#innerheader a{
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+#UniDropdown{
+    float: left;
+}
+#TrainingDropdown{
+    float: left;
+}
+.DDButton{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+#antralogo{
+    width: 25%;
+}
+#dropdown li:hover{
+    background-color: red;
+}
+.DropDown-content{
+    display: none;
+    position: absolute;
+    top: 153px;
+    background-color: gray;
+    width: 100px;
+}
+
+.DropDown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+#UniDropdown:hover .DropDown-content{
+    display: block;
+}
+#TrainingDropdown:hover .DropDown-content{
+    display: block;
+}
+
+#Search{
+    float: right;
+    padding-right: 35px;
+}
+#Search button{
+    float: right;
+}
+
+/*  question 2 */
+#copyright{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+#copyright p{
+    padding-left: 100px;
+    
+}
+#information{
+    background-color: gray;
+    color: white;
+}
+#information li{
+    list-style-type: none;
+    text-decoration: none;
+}
+#information a{
+    color: white;
+    text-decoration: none;
+}
+#infotable{
+    width: 100%;
+}
+
+/*  question 2 */
+#apply{
+    overflow: hidden;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#apply p{
+    float: right;
+    background-color: orange;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+
+#articles{
+    overflow: hidden;
+    background-color: bisque;
+}
+
+#artT{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#articles li{
+    list-style-type: none;
+    display: inline;
+    background-color: cyan;
+    padding: .5em;
+}
+
+.newsA{
+    float: left;
+    padding: 8em;
+    margin: 1em;
+    background-color: antiquewhite;
+}
